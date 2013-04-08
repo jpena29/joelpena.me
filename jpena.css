@@ -1,0 +1,33 @@
+#project{
+    position: fixed;
+    top: 220px;
+    left: 290px;
+}
+
+#horn{
+    position: fixed;
+    top: 5px;
+    right: 0px;
+}
+
+#text{
+    position: fixed;
+    top: 220px;
+    left: 240px;
+}
+
+#screen{
+    position: fixed;
+    right: 30px;
+    top: 220px;
+}
+
+#footer{
+    background-image: url('footer.jpg');
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+
