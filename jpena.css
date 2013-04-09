@@ -1,3 +1,6 @@
+#body{
+	width: 80%;
+	margin: auto;
 #project{
     position: fixed;
     top: 220px;
