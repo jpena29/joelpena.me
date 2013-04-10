@@ -18,8 +18,8 @@ function draw(){
     }
     context.fillStyle = "#00" + "00" + blueShade.toString(16);
     blueShade++;
-    //Draws a circle of radius 10 at the coordinate 50, 50 on the canvas
-    context.arc(x, y, 10, 0, Math.PI*2, true);
+    //Draws a circle of radius 7 at the coordinate 50, 50 on the canvas
+    context.arc(x, y, 7, 0, Math.PI*2, true);
     context.closePath();
     context.fill();
     //Boundary logic
