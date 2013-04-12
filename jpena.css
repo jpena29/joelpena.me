@@ -28,10 +28,10 @@ h1{
 	color: black;
 }
 
-#screen{
+#social{
     position: fixed;
     right: 30px;
-    top: 220px;
+    top: 400px;
 }
 
 #footer{
