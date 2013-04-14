@@ -1,47 +1,42 @@
 html{
-	background-image: url('images/background.jpg');
+	background-image: url('images/retina_wood.png');
 	background: repeat-x repeat-y;
-}
-
-body{
 	width: 80%;
 	margin: auto;
 }
 
+p{
+	font-family: "comic sans ms", Georgia, serif;
+}
+
 h1{
-	font-size: 175%;
 	font-weight: bold;
-	text-align: center;
-	text-shadow: 2px 2px gray;
 	text-decoration: overline;
+	text-shadow: 2px 2px white;
 }
-	
+
 #bio{
+	position: relative;
 	text-align: center;
-	color: black;
-}
-	
-#project{
-    position: fixed;
-    top: 220px;
-    left: 290px;
-	color: black;
 }
 
 #social{
-    position: fixed;
-    right: 30px;
-    top: 400px;
+	position: absolute;
+	right: 180px;
+	top: 400px;
+}
+
+#projects{
+	position: absolute;
+	left: 180px;
+	top: 300px;
 }
 
 #footer{
-	width: 80%;
 	background-image: url('images/footer.jpg');
 	background-repeat: repeat-x;
-    text: center;
-	position: fixed;
-	bottom: 5px;
-	color: black;
+	background-size: 2px;
+	position: relative;
+	text-align: center;
+	top: 470px;
 }
-
-
