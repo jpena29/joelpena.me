@@ -1,42 +1,119 @@
-html{
-	background-image: url('images/retina_wood.png');
-	background: repeat-x repeat-y;
-	width: 80%;
+/* make links to my other pages inline */
+#connect li {
+	display: inline;
+	float: right;
+	margin-right: 10px;
+}
+
+/* adjust place where my profile picture will be placed */
+#picture {
+	background-image: url('./images/me.png');
+	border: black solid 1px;
+	width: 150px;
+	height: 200px;
+	float: left;
+	margin-left: 75px;
+	margin-top: 10px;
+}
+
+/* narrow body so that it won't be the entire page */
+body {
+	background-image: url('./strange_bullseyes/strange_bullseyes.png');
+	margin: 0;
+	padding: 0;
+}
+
+/* set wrapper min-height to 100% so footer is at bottom of page */
+#wrapper {
+	width: 900px;
 	margin: auto;
-}
-
-p{
-	font-family: "comic sans ms", Georgia, serif;
-}
-
-h1{
-	font-weight: bold;
-	text-decoration: overline;
-	text-shadow: 2px 2px white;
-}
-
-#bio{
+	min-height: 660px;
 	position: relative;
+	border: red dotted 1px;
+	background-image: url('./low_contrast_linen/low_contrast_linen.png');
+}
+
+/* when hovering on a link change color to red */
+a:hover {
+	color: red;
+}
+
+/* no underline for links and set color to green */
+a {
+	text-decoration: none;
+	color: green;
+}
+
+/* locate place for biography */
+#biography {
+	margin-top: 20px;
+	width: 300px;
+	height: 265px;
+	clear: right;
+	float: right;
+	margin-right: 100px;
+}
+
+/* center title of biography, interests, and classes */
+#biography h1{
 	text-align: center;
+	color: white;
 }
 
-#social{
-	position: absolute;
-	right: 180px;
-	top: 400px;
-}
-
-#projects{
-	position: absolute;
-	left: 180px;
-	top: 300px;
-}
-
-#footer{
-	background-image: url('images/footer.jpg');
-	background-repeat: repeat-x;
-	background-size: 2px;
-	position: relative;
+#interest h1 {
 	text-align: center;
-	top: 470px;
+	color: white;
+}
+
+#classes {
+	text-align: center;
+	color: white;
+}
+
+/* set color for all paragraphs */
+p {
+	color: white;
+}
+
+/* locate place for interests paragraph */
+#interest {
+	margin-top: 10px;
+	width: 300px;
+	height: 250px;
+	float: left;
+	margin-left: 50px;
+}
+
+/* locate place for schedule of classes */
+#classes {
+	clear: right;
+	float: right;
+	width: 300px;
+	margin-right: 100px;
+	margin-top: 25px;
+}
+
+#classes ul {
+	list-style-type: lower-roman;
+	text-align: left;
+	font-size: 18px;
+}
+
+#snowboard {
+	width: 150px;
+	height: 178px;
+	clear: left;
+	float: left;
+	background-image: url('./images/snowboard.png');
+	margin-left: 120px;
+}
+
+/* center footer */
+#footer {
+	text-align: center;
+	clear: both;
+	width: 900px;
+	height: 30px;
+	bottom: 5px;
+	position: absolute;
 }
